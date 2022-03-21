@@ -5,5 +5,5 @@ before_build:
 build:
   verbosity: minimal
 artifacts:
-- path: src\bin\Debug\cap2musicxml.ex
+- path: src\bin\Debug\cap2musicxml.exe
   name: debug executable
