@@ -4,3 +4,6 @@ before_build:
   - nuget restore
 build:
   verbosity: minimal
+artifacts:
+- path: .\src\bin\Debug\cap2musicxml.ex
+  name: debug executable
